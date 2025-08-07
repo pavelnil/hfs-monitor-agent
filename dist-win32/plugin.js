@@ -2,6 +2,8 @@
 exports.version = 1.0;
 exports.description = "Real-time monitoring for HFS-Monitor";
 exports.beforePlugin = "admin";
+exports.repo = "pavelnil/hfs-monitor-agent"
+exports.preview = ["https://github.com/pavelnil/HFS-Monitor/blob/main/screenshots/screenshot.jpg","https://github.com/pavelnil/HFS-Monitor/blob/main/screenshots/themesheet.jpg"]
 
 let lastTotalIn = 0;
 let lastTotalOut = 0;
